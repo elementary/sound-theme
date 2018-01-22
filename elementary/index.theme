@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=elementary
+Directories=stereo
+Inherits=freedesktop
+
+[stereo]
+OutputProfile=stereo
