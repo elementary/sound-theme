@@ -1,0 +1,14 @@
+Source: io.elementary.sound-theme
+Section: x11
+Priority: optional
+Maintainer: Cody Garver <cody@elementary.io>
+Build-Depends: debhelper (>= 10.5.1),
+               meson
+Standards-Version: 4.1.1
+Homepage: https://github.com/elementary/sound-theme
+
+Package: io.elementary.sound-theme
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: System sounds of elementary OS
+ Default sound theme of elementary OS.
