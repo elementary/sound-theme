@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        version: [stable, unstable, development-target]
+    container:
+      image: ghcr.io/elementary/docker:${{ matrix.version }}
+
+    steps:
+    - uses: actions/checkout@v6
+    - name: Install Dependencies
+      run: |
+        apt update
+        apt install -y meson
+    - name: Build and Test
+      env:
+        DESTDIR: out
+      run: |
+        meson setup build
+        ninja -C build install
