@@ -11,6 +11,8 @@ Pixabay sounds are free to use, modify, and redistribute subject to the Pixabay 
 `phone-hangup.mp3` <https://pixabay.com/sound-effects/ringtone-06-153265/>
 `phone-incoming-call.mp3` <https://pixabay.com/sound-effects/ringtone-010-151670/>
 
+`dialog-warning-auth.oga` [license](https://invent.kde.org/plasma/ocean-sound-theme/-/blob/master/README.md.license)
+
 ## Installation
 
 Run `meson` to configure the build environment and then `ninja install` to install
