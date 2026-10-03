@@ -9,6 +9,6 @@ Homepage: https://github.com/elementary/sound-theme
 
 Package: io.elementary.sound-theme
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}
 Description: System sounds of elementary OS
  Default sound theme of elementary OS.
