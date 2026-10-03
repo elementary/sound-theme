@@ -1,9 +1,43 @@
-Sounds under public domain:
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: io.elementary.sound-theme
+Source: https://github.com/elementary/sound-theme
 
-audio-volume-change.wav <https://freesound.org/people/ianslattery/sounds/168861/>
-bell.wav <https://freesound.org/people/Adam_N/sounds/164218/>
-dialog-information.oga <https://archive.org/details/slack_sfx/complete_quest_requirement.mp3>
+Files: *
+Copyright: Not Applicable---Public Domain
+License: CC0
+Comment: Represents copyright of non-sound files
 
-Sounds under Creative Commons Attribution:
+Files: elementary/stereo/dialog-warning.ogg
+Copyright: 2008-2026 Notification Sounds <notificationsounds.com>
+License: CC-BY-4.0
+Comment: From https://notificationsounds.com/standard-ringtones/answer-quickly-45
 
-dialog-warning.ogg <https://notificationsounds.com/standard-ringtones/answer-quickly-45>
+Files: elementary/stereo/dialog-warning-auth.oga
+Copyright: 2026 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
+License: CC-BY-SA-4.0
+Comment: From https://invent.kde.org/plasma/ocean-sound-theme/-/blob/82b5ce3b29b9a04e7652cfa12310e4875206867c/ocean/stereo/dialog-warning-auth.oga
+
+Files: elementary/stereo/phone-hangup.mp3
+       elementary/stereo/phone-incoming-call.mp3
+Copyright: 2026 Pixabay
+License: PixabayContentLicense
+Comment:
+ phone-hangup.mp3 from https://pixabay.com/sound-effects/ringtone-06-153265/
+ phone-incoming-call.mp3 from https://pixabay.com/sound-effects/ringtone-010-151670/
+
+Files: elementary/stereo/audio-volume-change.wav
+       elementary/stereo/bell.wav
+       elementary/stereo/dialog-information.oga
+Copyright: Not Applicable---Public Domain
+License: CC0
+Comment:
+ audio-volume-change.wav from https://freesound.org/people/ianslattery/sounds/168861/
+ bell.wav from https://freesound.org/people/Adam_N/sounds/164218/
+ dialog-information.oga from https://archive.org/details/slack_sfx/complete_quest_requirement.mp3
+
+License: PixabayContentLicense
+ Pixabay sounds are free to use, modify, and redistribute subject to the Pixabay license: https://pixabay.com/service/license-summary/
+
+License: CC0
+ On Debian systems, the complete text of the Creative Commons
+ CC0 license version 1.0 can be found in "/usr/share/common-licenses/CC0-1.0".
