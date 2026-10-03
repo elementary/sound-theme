@@ -2,7 +2,7 @@ Source: io.elementary.sound-theme
 Section: x11
 Priority: optional
 Maintainer: elementary <builds@elementary.io>
-Build-Depends: debhelper (>= 10.5.1),
+Build-Depends: debhelper-compat (= 13),
                meson
 Standards-Version: 4.1.1
 Homepage: https://github.com/elementary/sound-theme
