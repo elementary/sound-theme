@@ -4,14 +4,7 @@ A set of system sounds for elementary OS. Designed to be light, natural/physical
 
 ## Attribution
 
-`dialog-warning.ogg` is licensed under Creative Commons Attribution and was sourced from [Notification Sounds](https://notificationsounds.com/standard-ringtones/answer-quickly-45)
-
-Pixabay sounds are free to use, modify, and redistribute subject to the Pixabay license <https://pixabay.com/service/license-summary/>:
-
-`phone-hangup.mp3` <https://pixabay.com/sound-effects/ringtone-06-153265/>
-`phone-incoming-call.mp3` <https://pixabay.com/sound-effects/ringtone-010-151670/>
-
-`dialog-warning-auth.oga` [license](https://invent.kde.org/plasma/ocean-sound-theme/-/blob/master/README.md.license)
+See https://github.com/elementary/sound-theme/blob/deb-packaging/debian/copyright for copyright of each file.
 
 ## Installation
 
